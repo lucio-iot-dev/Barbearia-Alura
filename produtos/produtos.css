@@ -1,0 +1,30 @@
+header {
+  background: #BBBBBB;
+  padding: 20px 0 ;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;/*primeiro item é para cima e para baixo e o segundo direita e esquerda*/
+
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px ;/*primeiro para o topo,segundo para direita,terceiro para baixo e quarto para esquerda */
+}
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold; /*peso da fonte em negrito*/
+  font-size: 22px;
+  text-decoration: none;
+
+
+}
