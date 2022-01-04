@@ -25,6 +25,69 @@ nav a {
   font-weight: bold; /*peso da fonte em negrito*/
   font-size: 22px;
   text-decoration: none;
+  }
 
+  nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+  }
 
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px ;
+  box-sizing: border-box;/*com esta comando o padding e a width não vão somar e sim se adequar para manter os 30% de width que eu queria*/
+  /* background: #CCCCCC; */
+  /* border-color: #000000; */
+  /* border-width: 2px;/*border-top-width:10px; ele vai faze a borda de cima e com largura de 10px */
+  /* border-style: solid;/*tracejado-> dashed; pontilhado -> dotted; */
+  /*Existe uma forma unificada de fazer os 3 comandos de cima em um so comando,como será descrito abaixo*/
+  border: 2px solid #000000;
+  border-radius: 10px;/*pode usar de forma separada para atuar em aredondamento em bordas separadamente ex:border-radius: 10px 20px 30px 40px; */
+}
+.produtos li:hover {
+  border-color: #C78C19;
+}
+.produtos li:active {/*atua ao clicar no item*/
+  border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+  .produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .produto-descricao {
+    font-size: 18px;
+  }
+
+  .produto-preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;/*pode  usar margin-top 10px; */
+  }
+
+  footer  {
+    text-align: center;
+    background: url("/imagens/bg.jpg");/*colocar uma imagem como fundo*/
+    padding: 40px 0;
+    
+  }
+  .copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+  }  
