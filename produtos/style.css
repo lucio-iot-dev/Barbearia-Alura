@@ -6,6 +6,9 @@ header {
   background: #BBBBBB;
   padding: 20px 0 ;
 }
+main {
+  margin-left: 1.5rem;
+}
 
 .caixa {
   position: relative;
