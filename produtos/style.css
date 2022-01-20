@@ -182,7 +182,7 @@ width: 100%;
  font-size: 2em; /*quando colocamos em  e o numero dois antes quer dizer que a fonte em questão vai ter 2 vezes o tamanho da fonte principal dada em pixels*/
  margin: 0 0 1em;
  clear: left; /*Limpar o float a esquerda (utilizado em .utensilios) que foi colocado para o titulo beneficios não fique afetado*/
-}
+ }
 
 .principal {
   padding: 3em 0;
@@ -259,12 +259,19 @@ como :first-child  pegara o primeiro
 }
 .imagem-beneficios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
 }
-
+.imagem-beneficios:hover {
+  opacity: 0.8;
+}
 
 .video {
   width: 560px;
   margin: 2em auto;
+  box-shadow: 10px 10px 10px 0 #000000;
+
 }
 
 /*----seletores avançados do css----------*/
@@ -274,3 +281,21 @@ como :first-child  pegara o primeiro
     .principal p:not(#missao) estou entrando na classe principal e selecionando todos os paragrafos ,menos o que tem a classe de missao
     box-shandow: 10px 10px 5 px #000000; usamos para criar sombra no elemento os 5x (pode aumentar ou diminuir) é para criar sombra suave
     */
+
+/*--------- responsivo------------*/
+
+@media screen and (max-width: 480px) {
+ .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+   width: auto;
+ }
+ h1 {
+   text-align: center;
+ }
+ nav {
+   position: static;
+ }
+ .lista-beneficios, .imagem-beneficios {
+   width: 100%;
+ }
+
+}
