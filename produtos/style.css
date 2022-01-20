@@ -250,6 +250,18 @@ width: 100%;
 .itens:first-child {
   font-weight: bold;
 }
+
+.pro {
+  color: rgb(6, 112, 14);
+}
+.ho {
+  color: rgb(6, 112, 14);
+}
+.co {
+  color: rgb(6, 112, 14);
+}
+
+
 /* podemos usar o pseudo elemento para selecionar um item da lista
 como :first-child  pegara o primeiro
       :last-child pegara o ultimo
