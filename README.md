@@ -38,5 +38,10 @@ O curso foi dividido em 4 modulos:
 - HTML5 e CSS3 parte 4: Avançando no CSS, (8hrs);
 
 
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/lucio-iot-dev/Projeto-estudo-HTML/blob/main/LICENSE) para mais detalhes.
+
+
 
 Dev: Lúcio do Nascimento.
